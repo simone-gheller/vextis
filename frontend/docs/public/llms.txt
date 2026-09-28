@@ -3,9 +3,9 @@
 > Secure app config for local development and CI — organizations, apps, environments, and encrypted parameters, managed from a CLI.
 
 ## Getting started
-- [Overview](https://docs.vextis.io/docs): What vextis is and where to start.
+- [Introduction](https://docs.vextis.io/docs): What Vextis manages and the supported beta workflow.
 - [Quickstart](https://docs.vextis.io/docs/quickstart): Get a local app running with managed config.
-- [About vextis](https://docs.vextis.io/docs/about): What vextis is for and who it is built for.
+- [Core concepts](https://docs.vextis.io/docs/core-concepts): Organizations, apps, environments, parameters, and resolved values.
 
 ## Core concepts
 - [Organizations](https://docs.vextis.io/docs/organizations): The root of every app, environment, and member.

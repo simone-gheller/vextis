@@ -2,9 +2,9 @@ export const DOC_GROUPS = [
   {
     title: 'Getting started',
     pages: [
-      { path: '/docs', title: 'Overview', description: 'What vextis is and where to start.' },
+      { path: '/docs', title: 'Introduction', description: 'What Vextis manages and the supported beta workflow.' },
       { path: '/docs/quickstart', title: 'Quickstart', description: 'Get a local app running with managed config.' },
-      { path: '/docs/about', title: 'About vextis', description: 'What vextis is for and who it is built for.' },
+      { path: '/docs/core-concepts', title: 'Core concepts', description: 'Organizations, apps, environments, parameters, and resolved values.' },
     ],
   },
   {
@@ -62,6 +62,7 @@ export const ALL_PAGES = DOC_GROUPS.flatMap(group => group.pages.map(page => ({ 
 export const PATH_REDIRECTS = {
   '/': '/docs',
   '/quickstart': '/docs/quickstart',
+  '/core-concepts': '/docs/core-concepts',
   '/install-cli': '/docs/install-cli',
   '/cli-login': '/docs/cli-login',
   '/organizations': '/docs/organizations',
@@ -89,6 +90,7 @@ export const PATH_REDIRECTS = {
 export const LEGACY_HASH_REDIRECTS = {
   overview: '/docs',
   quickstart: '/docs/quickstart',
+  'core-concepts': '/docs/core-concepts',
   'install-cli': '/docs/install-cli',
   'cli-login': '/docs/cli-login',
   apps: '/docs/apps',

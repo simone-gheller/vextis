@@ -5,6 +5,7 @@ import { LEGACY_HASH_REDIRECTS, PATH_REDIRECTS } from './content/navigation.js';
 
 import OverviewPage from './pages/OverviewPage.jsx';
 import QuickstartPage from './pages/QuickstartPage.jsx';
+import CoreConceptsPage from './pages/CoreConceptsPage.jsx';
 import InstallPage from './pages/InstallPage.jsx';
 import LoginPage from './pages/LoginPage.jsx';
 import OrganizationsPage from './pages/OrganizationsPage.jsx';
@@ -54,6 +55,7 @@ function AppRoutes() {
         <Route element={<DocsLayout />}>
           <Route path="/docs" element={<OverviewPage />} />
           <Route path="/docs/quickstart" element={<QuickstartPage />} />
+          <Route path="/docs/core-concepts" element={<CoreConceptsPage />} />
           <Route path="/docs/about" element={<AboutVextisPage />} />
 
           <Route path="/docs/organizations" element={<OrganizationsPage />} />
